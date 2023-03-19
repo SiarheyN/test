@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             System.out.println("Hello from ira");
+            System.out.println("add commit");
             Class.forName("org.postgresql.Driver");
             Connection con = DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/test", "postgres", null);
