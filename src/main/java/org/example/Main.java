@@ -24,6 +24,7 @@ public class Main {
 
 
 //            dlskfsdf
+//            zc`zc
             ResultSet rs = stmt.executeQuery("select * from public.test_table1");
             while (rs.next()) {
                 System.out.println(rs.getString(1) + "  " + rs.getString(2));
