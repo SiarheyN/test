@@ -21,6 +21,9 @@ public class Main {
                     "\tcol2 varchar NULL\n" +
                     ")";
 //            ResultSet rs = stmt.executeQuery(query);
+
+
+//            dlskfsdf
             ResultSet rs = stmt.executeQuery("select * from public.test_table1");
             while (rs.next()) {
                 System.out.println(rs.getString(1) + "  " + rs.getString(2));
